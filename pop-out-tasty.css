@@ -1,0 +1,179 @@
+
+    .quick-buy-setting{
+      background-color: whitesmoke;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      column-gap: 70px;
+      width: 1300px;
+      padding:20px;
+      border: 1px solid rgb(221, 64, 2);
+      border-radius: 20px;
+      margin-left: 30px;
+      position: relative;
+    }
+    .add-list-food{
+      width: 450px;
+      height: 550px;
+      transition: 0.5s ease-in-out;
+      cursor:pointer;
+    }
+    .add-list-container{
+      border: 2px solid red;
+      height: 550px;
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+    .add-list-food:hover{
+      transform: scale(1.1);
+    }
+    .pop-steak-name{
+      font-size:25px;
+      font-family:Arial, Helvetica, sans-serif;
+      font-weight: 900;
+      text-transform: capitalize;
+      margin-top: 1px;
+    }
+    .pop-info{
+      font-size:18px;
+      font-family: roboto;
+      font-weight: 400;
+      margin-top: -10px;
+    }
+    .review-stars{
+        height: 30px;
+        margin-top:-10px;
+        margin-left: -5px;
+    }
+    .sub-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 250px;
+        text-transform: capitalize;
+        padding-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+        .sub-info3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 300px;
+        text-transform: capitalize;
+        padding-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sub-info a:hover{
+        color:black;
+    }
+    .sub-info button{
+        text-transform: capitalize;
+        cursor: pointer;
+        padding: 5px;
+    }
+      .sub-info2{
+        display: flex;
+        flex-direction: row;
+        /* grid-template-columns: 1fr 1fr; */
+        width: 330px;
+        text-transform: capitalize;
+        padding-bottom: 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .cart-setting{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 400px;
+    }
+     .cart-button-setting{
+      display: flex;
+      flex-direction: row;
+      column-gap: 20px;
+      margin-top: 10px;
+      align-items: center;
+    }
+    .cart-button{
+      font-size: 16px;
+      font-size: roboto;
+      font-weight: 700;
+      text-transform: capitalize;
+      cursor: pointer;
+      padding:8px;
+    }
+    .input-box{
+      width: 200px;
+      margin-left: 50px;
+      height:30px;
+      border: 1px solid red;
+      cursor: pointer;
+    }
+    .input-box:focus{
+      outline: red;
+    }
+  .input-box:hover{
+    outline: none;
+  }
+  .cart-adding-button{
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    row-gap: 20px;
+  }
+  .add-to-cart{
+    font-size: 18px;
+    font-family: roboto;
+    font-weight: 800;
+    padding: 15px 50px;
+    text-transform:capitalize ;
+    cursor: pointer;
+  }
+   .buy-to-cart{
+    font-size: 18px;
+    font-family: roboto;
+    font-weight: 800;
+    width: 100%;
+    padding: 15px 188px;
+    text-transform:capitalize ;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+   .view-more{
+    font-size: 16px;
+    font-family: cursive;
+    text-transform: capitalize;
+    color: gray;
+    display: flex;
+    justify-items: center;
+    align-items:center;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+  .display-add-weight-menu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  .close-btn{
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #444;
+  }
+  .pop-out-quiick-buy{
+    position: fixed;
+    z-index: 1000;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(3px);
+    padding-left: 15%;
+    padding-top: 4.5%;
+  }
